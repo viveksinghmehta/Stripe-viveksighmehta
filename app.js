@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', function(request, response) {
-    response.sendfile('index.html');
+    response.sendfile('profile.html');
 });
 
 app.post('/charge', function(request, response) {
