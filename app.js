@@ -10,6 +10,7 @@ const publishableKey = 'pk_test_A3PxLB8q0wcvXsHcDXOAumwU';
 var http = require('http');
 var express = require('express');
 var app = express();
+var fs = require('fs');
 const stripe = require('stripe')(secretKey);
 const bodyParser = require('body-parser');
 
@@ -18,7 +19,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', function(request, response) {
-    response.sendfile('profile.html');
+    fs.readFile('./profile.html',function(error, content) {
+        response.writeHead(200, {'Content-Type':'text/html'});
+        response.end(content, 'utf-8');
+    })
+//    response.sendfile('profile.html');
 });
 
 app.post('/charge', function(request, response) {
