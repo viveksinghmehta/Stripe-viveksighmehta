@@ -20,7 +20,7 @@ app.use(express.static(publicDir));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', function(request, response) {
-    response.sendfile('/meetme/protfolio.html');
+    response.sendfile('/meetme/about-us.html');
 });
 
 
