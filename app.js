@@ -11,7 +11,7 @@ var http = require('http');
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var publicDir = require('path').join(__dirname,'/public');
+var publicDir = require('path').join(__dirname,'/meetme');
 const stripe = require('stripe')(secretKey);
 const bodyParser = require('body-parser');
 
@@ -20,12 +20,9 @@ app.use(express.static(publicDir));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', function(request, response) {
-    response.sendfile('profile.html');
+    response.sendfile('/meetme/protfolio.html');
 });
 
-app.post('/charge', function(request, response) {
-
-});
 
 var httpServer = http.createServer(app);
 
