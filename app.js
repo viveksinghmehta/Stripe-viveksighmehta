@@ -23,6 +23,10 @@ app.get('/', function(request, response) {
     response.sendfile('/meetme/about-us.html');
 });
 
+app.get('/song', function(request, response) {
+    response.sendFile('/meetme/awari.mp3');
+})
+
 
 var httpServer = http.createServer(app);
 
