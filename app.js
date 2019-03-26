@@ -24,7 +24,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/song', function(request, response) {
-    response.sendFile('/meetme/awari.mp3');
+    response.sendFile('/awari.mp3');
 })
 
 
