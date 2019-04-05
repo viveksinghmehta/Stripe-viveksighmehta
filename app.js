@@ -23,8 +23,12 @@ app.get('/', function(request, response) {
     response.sendfile('/meetme/about-us.html');
 });
 
+
 app.get('/song', function(request, response) {
-    response.sendFile('/awari.mp3');
+    var stream = fs.createReadStream('awari.mp3');
+    stream.on('data', function(data) {
+        
+    })
 })
 
 
