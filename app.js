@@ -8,31 +8,27 @@ const publishableKey = 'pk_test_A3PxLB8q0wcvXsHcDXOAumwU';
 
 
 var http = require('http');
-var express = require('express');
-var app = express();
-var fs = require('fs');
-var publicDir = require('path').join(__dirname,'/meetme');
+const express = require('express');
+const app = express();
+const fs = require('fs');
+var publicDir = require('path').join(__dirname,'/public');
 const stripe = require('stripe')(secretKey);
 const bodyParser = require('body-parser');
 
+const morgan = require('morgan')
+
+
+app.use(morgan('short'))
 app.use(bodyParser.json());
 app.use(express.static(publicDir));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/', function(request, response) {
-    response.sendfile('/meetme/about-us.html');
-});
-
-
-app.get('/song', function(request, response) {
-    var stream = fs.createReadStream('awari.mp3');
-    stream.on('data', function(data) {
-        
-    })
+app.get("/user", function (request, response) {
+    let userJson = {firstName: "Vivek", lastName: "Mehta"}
+    response.json(userJson)
 })
 
-
-var httpServer = http.createServer(app);
+const httpServer = http.createServer(app);
 
 httpServer.listen(process.env.PORT || 3000);
 console.log('server is up and running');
