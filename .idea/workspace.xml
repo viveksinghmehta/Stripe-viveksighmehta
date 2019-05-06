@@ -2,261 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f026c45-5ed8-4ab6-b889-b222c1717de4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/css/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/css/normalize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/fonts/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/js/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/js/jquery-1.11.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/js/jquery.nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/MeetMe-doc/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/about-us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/awari.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/contact_process.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_about.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_courses.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_courses.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_feature.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_feature.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_gallery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_gallery.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_instagram.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_instagram.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_price.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_price.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_service.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_service.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_testimonials.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/_testimonials.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/breadcrumb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/breadcrumb.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/banner/banner-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/banner/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/banner/home-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/banner/shap-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/banner/shap-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/add.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/author.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/c1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/c3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/c5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/c6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/cat-post/cat-post-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/cat-post/cat-post-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/cat-post/cat-post-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/causes/causes-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/causes/causes-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/causes/causes-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/feature-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/main-blog/m-blog-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/main-blog/m-blog-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/main-blog/m-blog-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/main-blog/m-blog-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/main-blog/m-blog-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/next.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/popular-post/post1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/popular-post/post2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/popular-post/post3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/popular-post/post4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/post-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/post-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/blog/prev.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/disabled-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/disabled-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/f1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/f6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/f7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/g1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/g2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/g3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/g4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/g5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/g6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/g7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/g8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/primary-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/primary-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/success-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/success-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/user1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/elements/user2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/gallery/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/gallery/portfolio_details.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/gallery/project-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/gallery/project-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/gallery/project-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/gallery/project-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/gallery/project-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/gallery/project-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/Image-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/Image-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/Image-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/Image-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/Image-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/Image-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/Image-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/Image-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/ins-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/ins-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/ins-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/ins-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/ins-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/instagram/ins-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/personal-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/img/personal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/gmaps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/jquery.ajaxchimp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/jquery.form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/mail-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/stellar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/js/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/prepros-6.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_blog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_elements.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_feature.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_gallery.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_predefine.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_testimonials.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/services.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/single-blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/animate-css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/animate-css/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/bootstrap-datepicker/bootstrap-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/bootstrap-datepicker/bootstrap-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/counter-up/jquery.counterup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/counter-up/jquery.waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/flaticon/Flaticon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/flaticon/Flaticon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/flaticon/Flaticon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/flaticon/Flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/flaticon/_flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/flaticon/_flaticon.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/flaticon/_flaticon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/flaticon/flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/isotope/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/isotope/isotope.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/jquery-ui/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/jquery-ui/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/lightbox/simpleLightbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/lightbox/simpleLightbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/linericon/fonts/Linearicons-Free.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/linericon/fonts/Linearicons-Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/linericon/fonts/Linearicons-Free.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/linericon/fonts/Linearicons-Free.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/linericon/fonts/Linearicons-Free.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/linericon/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/nice-select/css/nice-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/nice-select/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/nice-select/js/jquery.nice-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/nice-select/js/jquery.nice-select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/owl-carousel/assets/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/owl-carousel/assets/animated.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/owl-carousel/assets/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/owl-carousel/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/owl-carousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/popup/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetme/vendors/popup/magnific-popup.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -267,17 +14,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Stripe-viveksighmehta" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.js" />
+      </list>
+    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -311,6 +81,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -343,20 +114,26 @@
       <workItem from="1554306013927" duration="55000" />
       <workItem from="1554306146615" duration="758000" />
       <workItem from="1554394661791" duration="9000" />
-      <workItem from="1554438031627" duration="37000" />
+      <workItem from="1554438031627" duration="509000" />
+      <workItem from="1554457346400" duration="220000" />
+      <workItem from="1554605281758" duration="318000" />
+      <workItem from="1554618839809" duration="1618000" />
+      <workItem from="1556015908885" duration="616000" />
+      <workItem from="1556016558625" duration="1056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="871000" />
+    <option name="totallyTimeSpent" value="5171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791956" visible="true" weight="0.24242425" />
+      <window_info id="Structure" order="1" sideWeight="0.5006935" side_tool="true" weight="0.24242425" />
+      <window_info id="npm" order="2" sideWeight="0.50208044" side_tool="true" weight="0.24242425" />
+      <window_info id="Favorites" order="3" sideWeight="0.5006935" side_tool="true" weight="0.24242425" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -364,9 +141,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989429" weight="0.32871014" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25797504" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010571" side_tool="true" weight="0.32871014" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -376,9 +153,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
