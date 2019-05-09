@@ -77,6 +77,7 @@ app.get("/json", function(request, response) {
 app.post("/location", function(request, response) {
     var lat = request.body.lat
     var long = request.body.long
+    console.log("Latitude : " +lat+ "longitude : "+long);
     response.end("Latitude : " +lat+ "longitude : "+long);
 });
 
