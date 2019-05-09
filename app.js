@@ -53,7 +53,7 @@ app.get("/user", function (request, response) {
     response.json(userJson);
 });
 
-app.get("json", function(request, response) {
+app.get("/json", function(request, response) {
     let newJson = {
         "id": "0001",
         "type": "donut",
@@ -74,6 +74,11 @@ app.get("json", function(request, response) {
     response.json(newJson);
 });
 
+app.post("/location", function(request, response) {
+    var lat = request.body.lat
+    var long = request.body.long
+    response.end("Latitude : " +lat+ "longitude : "+long);
+});
 
 const httpServer = http.createServer(app);
 
