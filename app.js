@@ -77,8 +77,12 @@ app.get("/json", function(request, response) {
 app.post("/location", function(request, response) {
     var lat = request.body.lat
     var long = request.body.long
-    console.log("Latitude : " +lat+ "longitude : "+long);
-    response.end("Latitude : " +lat+ "longitude : "+long);
+    let fullString = "Latitude : " +lat+ " longitude : "+long + Date.now();
+    console.log("Latitude : " +lat+ " longitude : "+long);
+    fs.writeFile("location.txt", function(fullString, error) {
+        console.log("Saved to file");
+    })
+    response.end(fullString);
 });
 
 const httpServer = http.createServer(app);
