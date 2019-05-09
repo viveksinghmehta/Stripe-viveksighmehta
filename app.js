@@ -80,9 +80,9 @@ app.post("/location", function(request, response) {
     let fullString = "Latitude : " +lat+ " longitude : "+long + Date.now();
     console.log("Latitude : " +lat+ " longitude : "+long);
     fs.writeFile("location.txt", function(fullString, error) {
-        console.log("Saved to file");
+        console.log("Saved to file"+ Date.now());
     })
-    response.end(fullString);
+    response.end(fullString+ Date.now());
 });
 
 const httpServer = http.createServer(app);
