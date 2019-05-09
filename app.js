@@ -74,15 +74,19 @@ app.get("/json", function(request, response) {
     response.json(newJson);
 });
 
-app.post("/location", function(request, response) {
+app.post("/location", function(request, response, next) {
     var lat = request.body.lat
     var long = request.body.long
-    let fullString = "Latitude : " +lat+ " longitude : "+long + Date.now();
-    console.log("Latitude : " +lat+ " longitude : "+long);
-    fs.writeFile("location.txt", function(fullString, error) {
-        console.log("Saved to file"+ Date.now());
-    })
-    response.end(fullString+ Date.now());
+    let fullString = "Latitude : " +lat+ " longitude : "+long + " "+ Date.now();
+    console.log(fullString);
+    // next();
+    // fs.writeFile("location.txt", function(fullString, error) {
+    //     // console.log("Saved to file"+ Date.now());
+    // })
+    next();
+}, function(request, response) {
+    console.log("This is next function.");
+    response.end("ending the response");
 });
 
 const httpServer = http.createServer(app);
