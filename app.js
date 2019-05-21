@@ -11,17 +11,35 @@ var http = require('http');
 const express = require('express');
 const app = express();
 const fs = require('fs');
-var publicDir = require('path').join(__dirname,'/public');
-const stripe = require('stripe')(secretKey);
+// var publicDir = require('path').join(__dirname,'/public');
+const stripe = require("stripe")("sk_test_yJFKB4KPXfHBwnq03kO3EZxB00A2mnU9iZ");
 const bodyParser = require('body-parser');
 
 const morgan = require('morgan');
+const db = require("./db");
+const location = "locationLog";
 
 
 app.use(morgan('short'));
 app.use(bodyParser.json());
-app.use(express.static(publicDir));
+// app.use(express.static(publicDir));
 app.use(bodyParser.urlencoded({ extended: true }));
+
+
+app.post('/pay', function(request, response) {
+    var stripeToken = request.body.token;
+   var charge = stripe.charges.create({
+        amount: 200,
+        currency: "chf",
+        card: stripeToken,
+        description: "Charge for jenny.rosen@example.com"
+      }, function(err, charge) {
+        if (err && err.type === 'StripeCardError') {
+            console.log(JSON.stringify(err, null, 2));
+        }
+        res.send("completed payment!")
+      });
+})
 
 app.get("/user", function (request, response) {
     let userJson = {
