@@ -28,11 +28,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/pay', function(request, response) {
     var stripeToken = request.body.token;
+    console.log(stripeToken);
    var charge = stripe.charges.create({
         amount: 200,
         currency: "chf",
         card: stripeToken,
-        description: "Charge for jenny.rosen@example.com"
+        description: "Charge for Vivek Singh Mehta"
       }, function(err, charge) {
         if (err && err.type === 'StripeCardError') {
             console.log(JSON.stringify(err, null, 2));
