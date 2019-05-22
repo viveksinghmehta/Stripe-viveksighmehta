@@ -16,7 +16,7 @@ const stripe = require("stripe")("sk_test_yJFKB4KPXfHBwnq03kO3EZxB00A2mnU9iZ");
 const bodyParser = require('body-parser');
 
 const morgan = require('morgan');
-const db = require("./db");
+// const db = require("./db");
 const location = "locationLog";
 
 
@@ -26,11 +26,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-app.post('/pay', function(request, response) {
+app.post('/pay', function(request, response, next) {
     var stripeToken = request.body.token;
+    var amount = request.body.amount;
     console.log(stripeToken);
    var charge = stripe.charges.create({
-        amount: 200,
+        amount: amount,
         currency: "chf",
         card: stripeToken,
         description: "Charge for Vivek Singh Mehta"
@@ -38,7 +39,7 @@ app.post('/pay', function(request, response) {
         if (err && err.type === 'StripeCardError') {
             console.log(JSON.stringify(err, null, 2));
         }
-        res.send("completed payment!")
+        response.send("completed payment!")
       });
 })
 
