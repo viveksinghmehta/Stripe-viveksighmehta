@@ -39,7 +39,7 @@ app.post('/pay', function(request, response, next) {
         if (err && err.type === 'StripeCardError') {
             console.log(JSON.stringify(err, null, 2));
         }
-        response.send("completed payment!")
+        response.json("completed payment!")
       });
 })
 
