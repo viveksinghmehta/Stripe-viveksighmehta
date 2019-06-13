@@ -1,17 +1,14 @@
-// this is my local server
+
 
 // Secret Key from stripe
 const secretKey = 'sk_test_Aw8X8i2E4jszw8KyM3Npyrcr';
 
-// Publishable Key from stripe
-const publishableKey = 'pk_test_A3PxLB8q0wcvXsHcDXOAumwU';
 
 
 var http = require('http');
 const express = require('express');
 const app = express();
 const fs = require('fs');
-// var publicDir = require('path').join(__dirname,'/public');
 const stripe = require("stripe")("sk_test_yJFKB4KPXfHBwnq03kO3EZxB00A2mnU9iZ");
 const bodyParser = require('body-parser');
 
@@ -26,12 +23,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-app.post('/pay', function(request, response, next) {
+app.post('/pay', function(request, response) {
     var stripeToken = request.body.token;
     var amount = request.body.amount;
     console.log(stripeToken);
+    console.log(amount);
    var charge = stripe.charges.create({
-        amount: amount,
+        amount: amount * 100,
         currency: "chf",
         card: stripeToken,
         description: "Charge for Vivek Singh Mehta"
@@ -91,6 +89,7 @@ app.get("/json", function(request, response) {
                 "height": 32
             }
     }
+    response.status(200);
     response.json(newJson);
 });
 
