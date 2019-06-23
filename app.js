@@ -104,6 +104,10 @@ app.post("/location", function(request, response, next) {
     response.end("ending the response");
 });
 
+app.get("/creativity", function(request, response) {
+    response.sendFile("./solid/index.html")
+})
+
 const httpServer = http.createServer(app);
 
 httpServer.listen(process.env.PORT || 3000);
