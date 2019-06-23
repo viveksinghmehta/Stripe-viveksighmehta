@@ -1,7 +1,7 @@
 
 
 // Secret Key from stripe
-const secretKey = 'sk_test_Aw8X8i2E4jszw8KyM3Npyrcr';
+const secretKey = 'sk_test_yJFKB4KPXfHBwnq03kO3EZxB00A2mnU9iZ';
 
 
 
@@ -98,10 +98,6 @@ app.post("/location", function(request, response, next) {
     var long = request.body.long
     let fullString = "Latitude : " +lat+ " longitude : "+long + " "+ Date.now();
     console.log(fullString);
-    // next();
-    // fs.writeFile("location.txt", function(fullString, error) {
-    //     // console.log("Saved to file"+ Date.now());
-    // })
     next();
 }, function(request, response) {
     console.log("This is next function.");
@@ -111,4 +107,5 @@ app.post("/location", function(request, response, next) {
 const httpServer = http.createServer(app);
 
 httpServer.listen(process.env.PORT || 3000);
+console.log(process.env.PORT)
 console.log('server is up and running');
