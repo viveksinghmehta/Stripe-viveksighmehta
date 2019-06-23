@@ -106,8 +106,11 @@ app.post("/location", function(request, response, next) {
 });
 
 app.get("/creativity", function(request, response) {
-    response.sendFile(path.join(__dirname + './solid/index.html'));
+    response.writeHead(200, {'Content-Type' : 'text/html'});
+    response.write("./solid/index.html");
 });
+
+
 
 const httpServer = http.createServer(app);
 
