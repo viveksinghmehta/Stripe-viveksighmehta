@@ -8,6 +8,7 @@ const secretKey = 'sk_test_yJFKB4KPXfHBwnq03kO3EZxB00A2mnU9iZ';
 var http = require('http');
 const express = require('express');
 const app = express();
+const path = require("path");
 const fs = require('fs');
 const stripe = require("stripe")("sk_test_yJFKB4KPXfHBwnq03kO3EZxB00A2mnU9iZ");
 const bodyParser = require('body-parser');
@@ -105,8 +106,8 @@ app.post("/location", function(request, response, next) {
 });
 
 app.get("/creativity", function(request, response) {
-    response.sendFile("./solid/index.html")
-})
+    response.sendFile(path.join(__dirname + './solid/index.html'));
+});
 
 const httpServer = http.createServer(app);
 
