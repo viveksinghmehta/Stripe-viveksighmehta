@@ -107,7 +107,15 @@ app.post("/location", function(request, response, next) {
 
 app.get("/creativity", function(request, response) {
     response.writeHead(200, {'Content-Type' : 'text/html'});
-    response.write("./solid/index.html");
+    response.write(path.join(__dirname+'/solid/index.html'));
+});
+
+app.get("/queryParameters", function (request, response) {
+    let id = request.query.id
+    let type = request.query.type
+    let thing = request.query.thing
+    let newResponse = "Id : " + id + " type : " + type + " thing : " + thing
+    response.end(newResponse);
 });
 
 
