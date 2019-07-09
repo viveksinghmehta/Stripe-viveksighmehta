@@ -20,7 +20,6 @@ const location = "locationLog";
 
 app.use(morgan('short'));
 app.use(bodyParser.json());
-// app.use(express.static(publicDir));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
@@ -114,9 +113,17 @@ app.get("/queryParameters", function (request, response) {
     let id = request.query.id
     let type = request.query.type
     let thing = request.query.thing
-    let newResponse = "Id : " + id + " type : " + type + " thing : " + thing
-    response.end(newResponse);
+    let queryResponse = {
+        "Id": id,
+        "type": type,
+        "thing": thing
+    }
+    response.json(queryResponse);
 });
+
+app.post("", function (request, response) {
+    
+})
 
 
 
